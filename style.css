@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    display: flex;
+    background-color: whitesmoke;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgba(152, 137, 180, 0.486);
+}
+
+.myntra-home{
+    width: 53px;
+    height: 45px;
+    
+}
+
+.logo-container{
+    margin-left: 4%;
+}
+
+.action-bar{
+    margin-right: 4%;
+}
+
+.nav-bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav-bar a {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    column-gap: #2B2C3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 29px 0;
+    border-bottom: 0 solid rgba(152, 137, 180, 0.486);
+   
+
+}
+.nav-bar a:hover{
+    border-bottom: 5px solid rgba(216, 142, 5, 0.959);
+}
+.nav-bar a sup{
+    color: red;
+    font-size: 10px;
+}
+.search-bar{
+    height: 40px;
+    min-width: 400px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    background-color: antiquewhite;
+    color: #2B2C3f;
+    flex-grow: 1;
+    height: 40px;
+    border-radius:  50px;
+    text-align: center;
+}
+.action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    
+}
+.action-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/* main section */
+
+
+.baner{
+    margin: 40px 0;
+
+}
+.baner-image{
+    width: 100%;
+}
+
+.heading{
+    text-transform: uppercase;
+    color: #3E4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.offere{
+    width: 250px;
+
+
+}
+
+/* footer section */
+
+.footer-container{
+    background-color: #FAFBFC;
+    padding: 30px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+    
+}
+.footer-column a{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright{
+
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
